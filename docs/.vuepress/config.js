@@ -1,45 +1,34 @@
 module.exports = {
   title: 'Code-Friend', // 设置网站标题
-  description: '日常学习笔记',
+  description: '种一棵树最好的时间是十年前，其次就是现在。',
   themeConfig: {
+    markdown: {
+      lineNumbers: true // 代码行数
+    },
     nav: [
       { text: '首页', link: '/' },
       { text: '基础系列', link: '/base/' },
       { text: '框架系列', link: '/frame/' },
       { text: '工具系列', link: '/utils/' },
-      { text: '更多', items: [
-          {
-            text: '前端',
-            link: '/web/'
-          },
-          {
-            text: '后端',
-            link: '/node/'
-          },
-          {
-            text: '工具使用',
-            link: '/utils/'
-          },
-        ]},
+      { text: '更多', link: '/more/' },
       { text: 'Github', link: 'https://github.com/liu927971519/docs' }
     ],
     sidebar: {
-      '/node/': [
-        {
-          title: '后端教程',
-          collapsable: false,
-          children: [
-            '',
-          ]
-        }
-      ],
       '/utils/': [
+        '/utils/',
         {
-          title: '常用工具使用教程',
-          collapsable: false,
+          title: 'Docker',
+          collapsable: true,
           children: [
-            'docker/',
-            'nginx/'
+            '/utils/docker/安装',
+            '/utils/docker/常用指令'
+          ]
+        },
+        {
+          title: 'Nginx',
+          collapsable: true,
+          children: [
+            '/utils/nginx/安装',
           ]
         }
       ]
