@@ -13,4 +13,8 @@ title: 工具系列
 
 ### 更新
 ***
-[Docker](/utils/docker/安装.html)
+[Docker.安装](/utils/docker/安装.html)
+[Docker.Docker常用命令](/utils/docker/常用命令.html)
+[Nginx.Nginx初识和安装](/utils/nginx/安装.html)
+
+

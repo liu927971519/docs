@@ -2,6 +2,18 @@ module.exports = {
   title: 'Code-Friend', // 设置网站标题
   description: '种一棵树最好的时间是十年前，其次就是现在。',
   themeConfig: {
+    repo: 'liu927971519/docs',
+    docsBranch: 'master', // git 源仓库 仓库分支
+    docsDir: 'docs', // 仓库下的文件夹
+    editLinks: true, // 编辑链接
+    editLinkText: '改善文档', // 链接字段
+    lastUpdated: '上次更新',
+    serviceWorker: {
+      updatePopup: {
+        message: "发现新内容可用",
+        buttonText: "刷新"
+      }
+    },
     markdown: {
       lineNumbers: true // 代码行数
     },
@@ -10,8 +22,6 @@ module.exports = {
       { text: '基础系列', link: '/base/' },
       { text: '框架系列', link: '/frame/' },
       { text: '工具系列', link: '/utils/' },
-      { text: '更多', link: '/more/' },
-      { text: 'Github', link: 'https://github.com/liu927971519/docs' }
     ],
     sidebar: {
       '/utils/': [

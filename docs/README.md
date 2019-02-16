@@ -11,7 +11,7 @@
   <div class="feature">
     <h2>基础系列</h2>
     <p>
-      HTMl的语义化与部分标签使用、CSS效果、JavaScript基础的知识的总结
+      HTMl的语义化与部分标签使用、CSS效果、JavaScript基础的知识的总结与平时的一些积累
     </p>
   </div>
   <div class="feature">
