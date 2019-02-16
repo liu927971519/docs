@@ -1,6 +1,9 @@
 module.exports = {
   title: 'Code-Friend', // 设置网站标题
   description: '种一棵树最好的时间是十年前，其次就是现在。',
+  head: [
+    ['link', { rel: 'shortcut icon', type: "image/x-icon", href: `./favicon.ico` }]
+  ],
   themeConfig: {
     repo: 'liu927971519/docs',
     docsBranch: 'master', // git 源仓库 仓库分支
