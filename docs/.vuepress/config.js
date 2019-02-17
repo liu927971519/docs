@@ -27,6 +27,16 @@ module.exports = {
       { text: '工具系列', link: '/utils/' },
     ],
     sidebar: {
+      '/frame/': [
+        '/frame/',
+        {
+          title: 'Vue',
+          collapsable: true,
+          children: [
+            '/frame/vue/生命周期及使用场景.md',
+          ]
+        },
+      ],
       '/utils/': [
         '/utils/',
         {
@@ -34,7 +44,7 @@ module.exports = {
           collapsable: true,
           children: [
             '/utils/docker/安装',
-            '/utils/docker/常用指令'
+            '/utils/docker/常用命令'
           ]
         },
         {
