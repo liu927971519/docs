@@ -34,6 +34,7 @@ module.exports = {
           collapsable: true,
           children: [
             '/frame/vue/生命周期及使用场景.md',
+            '/frame/vue/Vue.use()中做什么.md'
           ]
         },
       ],
