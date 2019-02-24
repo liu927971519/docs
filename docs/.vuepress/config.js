@@ -22,40 +22,35 @@ module.exports = {
     },
     nav: [
       { text: '首页', link: '/' },
-      { text: '基础系列', link: '/base/' },
-      { text: '框架系列', link: '/frame/' },
-      { text: '工具系列', link: '/utils/' },
+      { text: '日常笔记', link: '/notes/' },
     ],
     sidebar: {
-      '/frame/': [
-        '/frame/',
+      '/notes/': [
+        '/notes/',
         {
           title: 'Vue',
           collapsable: true,
           children: [
-            '/frame/vue/生命周期及使用场景.md',
-            '/frame/vue/Vue.use()中做什么.md'
+            '/notes/vue/生命周期及使用场景',
+            '/notes/vue/Vue.use()中做什么'
           ]
         },
-      ],
-      '/utils/': [
-        '/utils/',
         {
           title: 'Docker',
           collapsable: true,
           children: [
-            '/utils/docker/安装',
-            '/utils/docker/常用命令'
+            '/notes/docker/安装',
+            '/notes/docker/常用命令'
           ]
         },
         {
           title: 'Nginx',
           collapsable: true,
           children: [
-            '/utils/nginx/安装',
+            '/notes/nginx/安装',
           ]
         }
-      ]
+      ],
     }
   }
 }

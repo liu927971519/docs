@@ -1,6 +1,10 @@
 ## Code-Friend: 
 本项目采用 VuePress , 一个基于 Vue SSR 的静态站生成器。搭建一个可以自动解析Markdown文档的文档库。
 
+1. HTMl的语义化与部分标签使用、CSS效果、JavaScript基础的知识的总结与平时的一些积累
+2. 记录Vue、React在平常使用遇到问题以及源码学习笔记
+3. 涉及到nginx、docker、jenkins等在项目部署流程上所用到工具基本使用介绍
+
 [在线文档地址](http://doc.friendlycode.cn)
 
 ## 勘误及提问
