@@ -2,7 +2,7 @@
   home: true
   heroImage: /home.gif
   actionText: Let Go →
-  actionLink: /base/
+  actionLink: /notes/
   pageClass: home-page
   footer: MIT Licensed | Copyright ©2019-present LiJian Liu
 ---
