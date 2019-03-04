@@ -9,6 +9,8 @@ title: 日常笔记目录
 
 ### 最近更新目录
 ***
+[从URL输入到页面显示中间做了什么](../notes/base/从URL输入到页面显示中间做了什么.html)
+
 [vue生命周期及使用场景](../notes/vue/生命周期及使用场景.html)
 
 [Vue.use()中做什么](../notes/vue/Vue.use()中做什么.html)

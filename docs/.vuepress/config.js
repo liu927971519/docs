@@ -28,6 +28,13 @@ module.exports = {
       '/notes/': [
         '/notes/',
         {
+          title: '基础',
+          collapsable: true,
+          children: [
+            '/notes/base/从URL输入到页面显示中间做了什么.md',
+          ]
+        },
+        {
           title: 'Vue',
           collapsable: true,
           children: [
@@ -49,7 +56,7 @@ module.exports = {
           children: [
             '/notes/nginx/安装',
           ]
-        }
+        },
       ],
     }
   }
